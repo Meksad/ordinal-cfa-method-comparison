@@ -1,0 +1,96 @@
+ORDINAL CFA METHOD COMPARISON
+
+================ MODEL FIT INDICES ================
+
+         Method Chi_Square df p_value CFI    TLI RMSEA
+          WLSMV     1.3852  5  0.9259   1 1.0033     0
+ Polychoric CFA     2.3435  5  0.7999   1 1.0032     0
+   SRMR
+ 0.0065
+ 0.0065
+
+================ FIT INDEX COMPARISON ================
+
+ Index  WLSMV Polychoric_CFA
+   CFI 1.0000         1.0000
+   TLI 1.0033         1.0032
+ RMSEA 0.0000         0.0000
+  SRMR 0.0065         0.0065
+ Difference_WLSMV_minus_Polychoric
+                             0e+00
+                             1e-04
+                             0e+00
+                             0e+00
+
+================ FACTOR LOADINGS ================
+
+         Method Factor Item Estimate    SE Std_lv Std_all
+          WLSMV      F   Y1    1.000 0.000  0.730   0.730
+          WLSMV      F   Y2    0.995 0.044  0.727   0.727
+          WLSMV      F   Y3    0.926 0.043  0.676   0.676
+          WLSMV      F   Y4    0.968 0.044  0.707   0.707
+          WLSMV      F   Y5    0.932 0.043  0.681   0.681
+ Polychoric CFA      F   Y1    1.000 0.000  0.730   0.731
+ Polychoric CFA      F   Y2    0.995 0.049  0.726   0.727
+ Polychoric CFA      F   Y3    0.926 0.048  0.676   0.676
+ Polychoric CFA      F   Y4    0.967 0.049  0.706   0.707
+ Polychoric CFA      F   Y5    0.933 0.048  0.681   0.681
+ p_value
+      NA
+       0
+       0
+       0
+       0
+      NA
+       0
+       0
+       0
+       0
+
+================ R-SQUARED ================
+
+         Method Item     R2
+          WLSMV   Y1 0.5335
+          WLSMV   Y2 0.5283
+          WLSMV   Y3 0.4574
+          WLSMV   Y4 0.5000
+          WLSMV   Y5 0.4638
+ Polychoric CFA   Y1 0.5336
+ Polychoric CFA   Y2 0.5281
+ Polychoric CFA   Y3 0.4575
+ Polychoric CFA   Y4 0.4994
+ Polychoric CFA   Y5 0.4642
+
+================ THRESHOLDS ================
+
+ Item Threshold Estimate    SE p_value
+   Y1        t1   -0.601 0.042   0.000
+   Y1        t2    0.040 0.040   0.312
+   Y1        t3    0.700 0.043   0.000
+   Y2        t1   -0.631 0.043   0.000
+   Y2        t2   -0.020 0.040   0.613
+   Y2        t3    0.681 0.043   0.000
+   Y3        t1   -0.678 0.043   0.000
+   Y3        t2   -0.035 0.040   0.376
+   Y3        t3    0.628 0.043   0.000
+   Y4        t1   -0.716 0.044   0.000
+   Y4        t2   -0.058 0.040   0.146
+   Y4        t3    0.619 0.043   0.000
+   Y5        t1   -0.668 0.043   0.000
+   Y5        t2    0.020 0.040   0.613
+   Y5        t3    0.671 0.043   0.000
+
+================ CONVERGENCE ================
+
+         Method Converged
+          WLSMV      TRUE
+ Polychoric CFA      TRUE
+
+================ HEYWOOD CHECK ================
+
+         Method Loading_Problem R2_Problem
+          WLSMV           FALSE      FALSE
+ Polychoric CFA           FALSE      FALSE
+ Negative_Residual
+             FALSE
+             FALSE
